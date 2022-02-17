@@ -1,0 +1,129 @@
+.main {
+    background-color: #fff;
+    align-items: flex-start;
+    display: flex;
+    border-radius: 2px;
+    padding: 15px;
+    width: 60%;
+    margin: 30px auto;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+.pr-image {
+    width: 90%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.image {
+    align-items:center;
+    display: block;
+    padding-right: 10px;
+    justify-content: left;
+    
+    
+}
+
+.info {
+    text-align: left;
+    display: block;
+    align-items: top;
+    vertical-align: top;
+    width: 65%;
+    float: right;
+}
+
+.title {
+    
+    display: block;
+    margin-bottom: 3px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.price {
+    align-items: center;
+    margin-bottom: 15px;
+    
+    display: block;
+    
+}
+
+.description {
+    margin-bottom: 50px;
+    
+}
+
+.full-description {
+    padding-top: 10px;
+}
+
+.questions {
+    display: flex;
+    column-gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.reviews {
+    display: block;
+    column-gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+
+    .main{
+        display: inline-block;
+        align-items: flex-start;
+        border-radius: 2px;
+        padding: 15px;
+        width: 90%;
+        margin: 30px auto;
+        box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+    }
+
+    .info {
+        text-align: left;
+        display: block;
+        align-items: top;
+        vertical-align: top;
+        margin-top: 10px;
+        width: 100%;
+        float: right;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1000px) and (min-width:721px) {
+
+    .main{
+        display: inline-block;
+        align-items: flex-start;
+        border-radius: 2px;
+        padding: 15px;
+        width: 90%;
+        margin: 30px auto;
+        box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+    }
+
+    .info {
+        text-align: left;
+        display: block;
+        align-items: top;
+        vertical-align: top;
+        margin-top: 10px;
+        width: 100%;
+        float: right;
+    }
+
+    
+    .pr-image {
+        width: 40%;
+        padding-right: 10px;
+        vertical-align: top;
+    }
+    
+}

@@ -1,0 +1,37 @@
+
+
+.body {
+    background-color: rgb(235, 229, 222);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.loading-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; 
+
+}
+
+
+.logo {
+    margin-bottom: 40px;
+} 
+
+.total {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 15px;
+    width: 60%;
+    margin: 30px auto;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+@media only screen and (max-width: 720px) {
+    
+
+}
