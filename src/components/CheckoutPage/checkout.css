@@ -1,0 +1,13 @@
+.final-main {
+    background-color:rgb(235, 229, 222);
+    padding-bottom:20px;
+    
+}
+
+@media only screen and (min-height: 690px) {
+    .final-main{
+        background-color:rgb(235, 229, 222);
+        padding-bottom:20px;
+        height:100vh;
+    }
+}

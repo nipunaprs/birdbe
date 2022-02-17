@@ -1,12 +1,13 @@
 import React,{useState,useEffect} from 'react'
 import {TextField, Box, Typography, Button  } from '@mui/material';
 import Typewriter from 'typewriter-effect';
+import './checkout.css'
 
 function Checkout({order}) {
 
 
   return (
-    <div style={{backgroundColor:'rgb(235, 229, 222)', paddingBottom:'20px', height:'100vh'}}>
+    <div className='final-main' >
         <Box sx={{display:'block',alignItems:'center',textAlign:'center',justifyContent:'center',p:5}}>
             <Box sx={{fontSize:'30px'}}><Typewriter
                     options={{

@@ -28,6 +28,8 @@ function ProductPage({setOrder,gender}) {
     useEffect(() => {
         if(currentCart.length == 0){
             setTotal(0)
+            setMonthlyFee(0)
+            setSavings(0)
         }
         else{
             let current_total = 0
